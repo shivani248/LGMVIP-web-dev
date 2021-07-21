@@ -1,0 +1,285 @@
+*{margin: 0%;
+padding: 0%;}
+.content{width: 250px;
+padding: 70px 400px 100px 400px;}
+
+.div1{background-repeat: no-repeat;
+    background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 500px;
+   animation: slide 10s infinite;
+color: white;
+height: 400px;}
+   
+   @keyframes slide{
+       0%{background-image: url(p1.jpg);}
+       20%{background-image: url(p1.jpg);}
+       20.01%{background-image: url(p2.jpg);}
+       40%{background-image: url(p2.jpg);}
+       40.01%{background-image: url(p3.jpg);}
+       60%{background-image: url(p3.jpg);}
+       60.01%{background-image: url(p4.jpg);}
+       80%{background-image: url(p4.jpg);}
+       80.01%{background-image: url(p1.jpg);}
+       100%{background-image: url(p1.jpg);}
+   }
+   .div2{margin:15px 400px 0px 500px ;
+        background-color: white;
+    font-size: 25px;
+padding-top: 20px;}
+
+.im{ 
+    float: right ;
+    width: 150px;
+    height: 150px;
+    margin-right: 150px;
+}
+.div3{margin:0px 300px 0px 300px ;
+padding: 100px;
+
+}
+
+.icon{float: left;
+width: 33.33%;
+}
+
+h4{font-weight: bold;
+text-align: center;}
+
+.btn1{
+    margin-left: auto;
+    margin-right: auto;
+background-color:rgb(255, 251, 0);
+align-content: center;
+font-weight: 600;
+height: 30px;
+width: 100px;
+border-style: none;
+}
+
+.btn1:hover{background-color: rgb(99, 61, 134);
+color: white;
+height: 35px;
+margin-bottom: 0px;
+
+}
+
+p{text-align: center;
+margin-top: 10px;}
+
+.icn{
+    
+  height: 75px;
+  width: 75px;
+  background-color: rgb(99, 61, 134);
+  border-radius: 50%;
+margin-left: 80px;
+margin-bottom: 15px;
+}
+
+.project{float: left;
+width: 24.2%;
+height: 700px;
+background-color: rgb(189, 185, 185);
+margin:5px;}
+
+.project:hover 
+{
+    background-color:#ffcc33;
+ box-shadow: 0px 5px 5px 2px rgb(192, 191, 191);
+}
+
+.btn2
+{background-color: white; 
+     font-weight: 600; 
+     width: 160px;
+      height: 40px;
+       color: black;
+    margin-top: 20px;
+border-style: none;}
+
+       .project:hover .btn2{background-color: rgb(94, 46, 138);
+    color: white;
+size: 30px;}
+
+
+.pricetable{margin-top: 50px;
+margin-left: 300px;
+margin-right: 300px;
+height: 500px;}
+
+.price:hover{background-color: rgb(250, 224, 250);}
+
+.price{float: left;
+width: 33.33%;}
+
+.btn3{background-color:#ffc106 ;
+color: black;
+align-items: center;
+margin-left: 80px;
+width: 60px;
+margin-top: 24px;
+font-weight: 700;
+height: 30px;
+border-style: none;}
+
+.btn3:hover{background-color: rgb(61, 33, 87);
+color: white;
+}
+
+.div4{background-color: indigo;
+height:400px;}
+
+
+.pic{float: left;
+width: 33.33%;
+height: 300px;
+
+}
+
+.profilepic{
+    height: 120px;
+     width: 110px; 
+     border-radius: 50%;
+margin:30px 50% 0px 50%;}
+
+.div6{background-color: rgb(243, 239, 239);
+height: 550px;}
+
+.div7{background-image: url("bridg.jpg");
+    height: 280px;
+    width: 100%;
+    padding: 20px;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding-top: 35px;
+    padding-right: 0px;
+}
+
+.btn4{
+    width: 68px;
+    height: 30px;
+    color: black;
+box-shadow: 2px 3px 3px 2px rgb(170, 168, 168);
+border-style: none;
+}
+
+.div8
+{margin: 360px;
+    padding: 50px;
+    margin-top: 0px;
+}
+
+.blog{
+    float: left;
+width: 30%;
+padding: 10px;
+
+}
+    
+.blogheading{
+    color: black;
+font-weight: 600;
+text-align: center;}
+
+.div8.button{background-color: brown;}
+
+.btn5{
+    margin-left:40px ; background-color: rgb(216, 206, 206);
+font-weight: 600;
+border-style: none;
+margin-top: 20px;
+width: 90px;
+    height: 30px;
+    color: black;
+box-shadow: 2px 3px 3px 2px rgb(170, 168, 168);}
+
+.btn5:hover{background-color: rgb(247, 191, 119);
+color: black;
+size: 240px;}
+
+
+.map{float: left;
+width: 50%;}
+
+div.form{background-color: #ffc106;
+padding-left: 0;
+
+font-weight:bold;
+padding-top: 20px;}
+
+textarea{height: 140px;}
+
+.foot{float: left;
+    width: 33.33%;
+margin-top: 30px;height: 200px;
+width: 180px;
+font-weight: 400;}
+
+section{position: relative;
+width: 100%;
+height: 100vh;}
+
+
+ 
+section video{
+    width: 100%;
+    height:100% ;
+    
+}
+
+section .navigation{
+    position: absolute;
+ bottom: 40px;
+ left: 50%;
+ transform: translate(-50%);
+ z-index: 100;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+section .navigation li{
+    list-style: none;
+    cursor: pointer;
+   margin: 5px;
+    border-radius: 4px;
+    background: #fff;
+    padding: 3px 3px 0;
+    opacity: 0.5;
+    height: ;
+}
+
+.img{height: 80px; width: 100px;}
+
+
+.img:hover{
+    width: 150px;
+    height: 100px;
+    opacity: 1;
+}
+
+
+
+
+section li img {width: 150px;
+height: 120px;border-radius: 5px;}
+
+section li{list-style-type: none;
+display: inline;
+cursor: pointer;
+border-radius: 5px;
+}
+
+.album:hover{width: 190px;height: 135px;opacity: 1px;}
+
+.fa-bell{height: 370vh;
+    margin:15px 20px 15px 22px;
+}
+
+.fa-accusoft{ margin:15px 20px 15px 22px;
+}
+
+.fa-envelope{margin:15px 20px 15px 22px;}
